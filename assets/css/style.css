@@ -708,6 +708,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
 }
 
+/* Rules n regulations section */
+
+#rnr {
+  padding-bottom: 60px;
+}
+#rnr li{
+  font-size: 18px;
+  padding: 10px;
+}
+
 /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
@@ -870,120 +880,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.1);
 }
 
-/*--------------------------------------------------------------
-# Hotels Section
---------------------------------------------------------------*/
-#hotels {
-  padding: 60px 0;
-}
-#hotels .hotel {
-  border: 1px solid #e0e5fa;
-  background: #fff;
-  margin-bottom: 30px;
-}
-#hotels .hotel:hover .hotel-img img {
-  transform: scale(1.1);
-}
-#hotels .hotel-img {
-  overflow: hidden;
-  margin-bottom: 15px;
-}
-#hotels .hotel-img img {
-  transition: 0.3s ease-in-out;
-}
-#hotels h3 {
-  font-weight: 600;
-  font-size: 20px;
-  margin-bottom: 5px;
-  padding: 0 20px;
-}
-#hotels a {
-  color: #152b79;
-}
-#hotels a:hover {
-  color: #F25746;
-}
-#hotels .stars {
-  padding: 0 20px;
-  margin-bottom: 5px;
-}
-#hotels .stars i {
-  color: #ffc31d;
-}
-#hotels p {
-  padding: 0 20px;
-  margin-bottom: 20px;
-  color: #060c22;
-  font-style: italic;
-  font-size: 15px;
-}
 
-/*--------------------------------------------------------------
-# Gallery Section
---------------------------------------------------------------*/
-#gallery {
-  padding: 60px;
-  overflow: hidden;
-}
-#gallery .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-#gallery .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #F25746;
-}
-#gallery .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #F25746;
-}
-#gallery .swiper-slide-active {
-  text-align: center;
-}
-@media (min-width: 992px) {
-  #gallery .swiper-wrapper {
-    padding: 40px 0;
-  }
-  #gallery .swiper-slide-active {
-    border: 5px solid #F25746;
-    padding: 4px;
-    background: #fff;
-    z-index: 1;
-    transform: scale(1.15);
-    margin-top: 6px;
-  }
-}
-
-/*--------------------------------------------------------------
-# Sponsors Section
---------------------------------------------------------------*/
-#supporters {
-  padding: 60px 0;
-}
-#supporters .supporters-wrap {
-  border-top: 1px solid #e0e5fa;
-  border-left: 1px solid #e0e5fa;
-  margin-bottom: 30px;
-}
-#supporters .supporter-logo {
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-right: 1px solid #e0e5fa;
-  border-bottom: 1px solid #e0e5fa;
-  overflow: hidden;
-  background: rgba(255, 255, 255, 0.5);
-  height: 160px;
-}
-#supporters .supporter-logo:hover img {
-  transform: scale(1.2);
-}
-#supporters img {
-  transition: all 0.4s ease-in-out;
-}
 
 /*--------------------------------------------------------------
 # F.A.Q Section
