@@ -1044,7 +1044,7 @@ h1, h2, h3, h4, h5, h6 {
 # Subscribe Section
 --------------------------------------------------------------*/
 #subscribe {
-  padding: 60px;
+  padding: 30px;
   background: url(../img/subscribe-bg.jpg) center center no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -1067,39 +1067,9 @@ h1, h2, h3, h4, h5, h6 {
 #subscribe .section-header h2, #subscribe p {
   color: #fff;
 }
-#subscribe input {
-  background: #fff;
-  color: #060c22;
-  border: 0;
-  outline: none;
-  margin: 0;
-  padding: 9px 20px;
-  border-radius: 50px;
-  font-size: 14px;
-}
-@media (min-width: 767px) {
-  #subscribe input {
-    min-width: 400px;
-  }
-}
-#subscribe button {
-  border: 0;
-  padding: 9px 25px;
-  cursor: pointer;
-  background: #F25746;
-  color: #fff;
-  transition: all 0.3s ease;
-  outline: none;
-  font-size: 14px;
-  border-radius: 50px;
-}
-#subscribe button:hover {
-  background: #e0072f;
-}
-@media (max-width: 460px) {
-  #subscribe button {
-    margin-top: 10px;
-  }
+
+.prize{
+  margin-bottom: 0px;
 }
 
 /*--------------------------------------------------------------
