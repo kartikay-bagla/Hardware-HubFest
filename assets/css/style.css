@@ -969,6 +969,18 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0px;
 }
 
+.gold{
+  padding: 40px 0px 60px;
+  background-color: #d4b710;
+}
+.silver{
+  padding: 40px 0px 60px;
+  background-color: #cfcdcd;
+}
+.bronze{
+  padding: 40px 0px 60px;
+  background-color: #b8857a;
+}
 /*--------------------------------------------------------------
 # Buy Tickets Section
 --------------------------------------------------------------*/
@@ -979,10 +991,10 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
-  box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
+  box-shadow: 0 5px 10px 0 rgba(94, 35, 38, 0.658);
 }
 #buy-tickets .card:hover {
-  box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
+  box-shadow: 0 20px 50px 0 rgba(94, 35, 38, 0.658);
 }
 #buy-tickets .card hr {
   margin: 25px 0;
