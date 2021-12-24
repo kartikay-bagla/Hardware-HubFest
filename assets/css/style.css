@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   FONT-WEIGHT: 100;
   padding: 0;
-  margin: 0;
+  margin: 0.5em;
   max-height: 4em;
 }
 @media (max-width: 992px) {
@@ -766,7 +766,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   font-size: 18px;
   font-style: italic;
-  margin: 0 auto 30px auto;
+  margin: 0 auto px auto;
 }
 @media (min-width: 991px) {
   #schedule .sub-heading {
