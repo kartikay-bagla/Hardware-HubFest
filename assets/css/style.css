@@ -978,24 +978,28 @@ h1, h2, h3, h4, h5, h6 {
 #buy-tickets .card {
   border: none;
   border-radius: 5px;
+  margin-left: 10px;
   transition: all 0.3s ease-in-out;
 }
 
 .gold{
   padding: 40px 0px 60px;
-  background-color: #ffdf00;
+  background-image: url(../img/cards/gold-bg.jpg);
+  background-size: cover;
   box-shadow: 0 5px 10px 0 #726101;
 }
 .silver{
   padding: 40px 0px 60px;
-  background-color: #bec2cb;
-  box-shadow: 0 5px 10px 0 rgb(41 41 42);
+  background-image: url(../img/cards/silver-bg.jpg);
+  box-shadow: 0 5px 10px 0 rgb(87, 87, 88);
 }
 .bronze{
   padding: 40px 0px 60px;
-  background-color: #cd7532;
+  background-image: url(../img/cards/bronze-bg.jpg);
+  background-size: cover; 
   box-shadow: 0 5px 10px 0 #3e230f;
 }
+
 
 #buy-tickets .gold:hover {
   box-shadow: 0 20px 50px 0 #796703;
@@ -1105,6 +1109,21 @@ h1, h2, h3, h4, h5, h6 {
     border-right: 1px solid #ddd;
   }
 }
+@media (max-width: 574px){
+  #schedule a{
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 438px) and (min-width: 393px) {
+  #logo img{
+    width: 80px; 
+  }
+}
+@media (max-width: 392px) {
+  #logo img{
+    width: 60px;
+  }
+}
 #contact .php-email-form .error-message {
   display: none;
   color: #fff;
@@ -1164,6 +1183,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.4s;
   border-radius: 50px;
   cursor: pointer;
+  margin-top: 20px;
 }
 #contact .php-email-form button[type=submit]:hover {
   background: #e0072f;
