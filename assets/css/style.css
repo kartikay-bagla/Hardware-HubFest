@@ -28,7 +28,7 @@ a:hover, a:active, a:focus {
 
 p {
   padding: 0;
-  margin: 0 0 30px 0;
+  margin: 0 20px 30px 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   FONT-WEIGHT: 100;
   padding: 0;
-  margin: 0;
+  margin: 0.5em;
   max-height: 4em;
 }
 @media (max-width: 992px) {
@@ -766,7 +766,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   font-size: 18px;
   font-style: italic;
-  margin: 0 auto 30px auto;
+  margin: 0 auto px auto;
 }
 @media (min-width: 991px) {
   #schedule .sub-heading {
@@ -983,18 +983,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .gold{
   padding: 40px 0px 60px;
-  background-color: #d4b710;
-  box-shadow: 0 5px 10px 0 #796703;
+  background-color: #ffdf00;
+  box-shadow: 0 5px 10px 0 #726101;
 }
 .silver{
   padding: 40px 0px 60px;
-  background-color: #cfcdcd;
-  box-shadow: 0 5px 10px 0 rgb(77, 77, 77);
+  background-color: #bec2cb;
+  box-shadow: 0 5px 10px 0 rgb(41 41 42);
 }
 .bronze{
   padding: 40px 0px 60px;
-  background-color: #b8857a;
-  box-shadow: 0 5px 10px 0 #663f36;
+  background-color: #cd7532;
+  box-shadow: 0 5px 10px 0 #3e230f;
 }
 
 #buy-tickets .gold:hover {
@@ -1016,7 +1016,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #buy-tickets .card .card-title {
   margin: 10px 0;
-  font-size: 14px;
+  font-size: 2.5em;
   letter-spacing: 1px;
   font-weight: bold;
 }
