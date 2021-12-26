@@ -1116,12 +1116,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 438px) and (min-width: 393px) {
   #logo img{
-    width: 80px; 
+    height: 50px; 
   }
 }
 @media (max-width: 392px) {
   #logo img{
-    width: 60px;
+    height: 40px;
   }
 }
 #contact .php-email-form .error-message {
