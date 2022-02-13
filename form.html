@@ -98,22 +98,40 @@
             <form method="post" role="form" class="php-email-form form2" name="google-sheet" style="display: none">
               <div class="row">
                 <div class="form-group col-md-6">
-                  <input type="text" name="Name" class="form-control" id="name" placeholder="Video Link" required>
+                  <input type="text" name="Name" class="form-control" id="name" placeholder="Team Name" required>
                 </div>
-                <!-- <div class="form-group col-md-6 mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="Email" id="email" placeholder="Your Email" required>
-                </div> -->
-              </div>
-              <!-- <div class="form-group mt-3">
-                <input type="text" class="form-control" name="Mobile" id="subject" placeholder="Mobile" required>
+                <div class="form-group col-md-6 mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="Email" id="email" placeholder="Team Lead's Name" required>
+                </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="Subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="Mobile" id="subject" placeholder="Project Title" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="Message" id="message" rows="5" placeholder="Message"
+                <textarea class="form-control" name="Message" id="message" rows="5" placeholder="Project Problem Statement (in less than 50 words)"
                   required></textarea>
-              </div> -->
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="Subject" id="subject" placeholder="Viewable link to the pitch deck" required>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="Subject" id="subject" placeholder="Viewable link to the working prototype(either simulation or recorded video of your working prototype.)" required>
+              </div>
+              <div class="form-group mt-3">
+                <Label>If selected for the final round, will a member of your team be physically present at DTU to showcase your product for the final round?:</Label><br>
+                  <input type="radio" id="yes1" name="Attandance" value="YES">
+                  <label for="yes1">YES &emsp;  </label>
+                  <input type="radio" id="no1" name="Attandance" value="NO">
+                  <label for="no1">NO</label><br>
+              </div>
+              <div class="form-group mt-3">
+                <Label>If selected for the final round, will your team be able to present their working product (no simulation or video allowed)?:</Label>
+                <br>
+                <input type="radio" id="yes2" name="Working Product" value="YES">
+                <label for="yes2">YES &emsp; </label>
+                <input type="radio" id="no2" name="Working Product" value="NO">
+                <label for="no2">NO</label><br>
+              </div>
   
               <div class="text-center" id="formbtn2"><button type="Submit">Submit</button></div>
             </form>
